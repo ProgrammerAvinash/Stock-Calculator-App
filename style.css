@@ -10,7 +10,7 @@ label {
   margin: 1rem;
   font-size: x-large;
 }
-.inprice {
+input {
   padding: 0.5rem;
   border: 2px solid #011cb7;
   border-radius: 12px;
