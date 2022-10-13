@@ -5,9 +5,9 @@ let btnVlaue = document.querySelector(".btn");
 let ResultValue = document.querySelector(".result");
 
 function onBtnClicked() {
-  let initialPriceValue = Number.parseInt(initialPrice.value);
-  let qtyStockValue = Number.parseInt(qtyStock.value);
-  let currentPriceValue = Number.parseInt(currentPrice.value);
+  let initialPriceValue = Number(initialPrice.value);
+  let qtyStockValue = Number(qtyStock.value);
+  let currentPriceValue = Number(currentPrice.value);
   console.log(initialPriceValue);
   console.log(qtyStockValue);
   console.log(currentPriceValue);
